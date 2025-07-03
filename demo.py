@@ -1,9 +1,10 @@
-def my_function ():
+def my_function():
+    a = 8
+    b = 6
+    result = a + b
+    return result
 
-    a=8
-    b=6
-    fjl;k
-    k;fkd
-    
 
-    returns d
+if __name__ == "__main__":
+    output = my_function()
+    print(f"The result is: {output}")
